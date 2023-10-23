@@ -93,14 +93,15 @@ var getScriptPromisify = (src) => {
         {
           type: 'bar',
           showBackground: true,
-          itemStyle: {
-            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-              { offset: 0, color: '#83bff6' },
-              { offset: 0.5, color: '#188df0' },
-              { offset: 1, color: '#188df0' }
-            ])
-            barBorderRadius: [10, 10, 0, 0,],
-          },
+itemStyle: {
+  color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+    { offset: 0, color: '#83bff6' },
+    { offset: 0.5, color: '#188df0' },
+    { offset: 1, color: '#188df0' }
+  ]),
+  barBorderRadius: [10, 10, 0, 0],  // Comma should be present here
+},
+
           emphasis: {
             itemStyle: {
               color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
