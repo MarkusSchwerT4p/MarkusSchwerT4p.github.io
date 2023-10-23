@@ -108,9 +108,9 @@ itemStyle: {
                 { offset: 0, color: '#2378f7' },
                 { offset: 0.7, color: '#2378f7' },
                 { offset: 1, color: '#83bff6' }
-              ])
-              barBorderRadius: [10, 10, 0, 0,],
-            }
+              ]),
+              barBorderRadius: [10, 10, 0, 0],
+            },
           },
           data: data
         }
