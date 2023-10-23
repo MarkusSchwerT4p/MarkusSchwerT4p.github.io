@@ -99,7 +99,7 @@ var getScriptPromisify = (src) => {
               { offset: 0.5, color: '#188df0' },
               { offset: 1, color: '#188df0' }
             ]),
-            			borderRadius: [5, 5, 0, 0] // Rounded top corners
+            			borderRadius: [20, 20, 0, 0] // Rounded top corners
           },
           emphasis: {
             itemStyle: {
@@ -108,7 +108,7 @@ var getScriptPromisify = (src) => {
                 { offset: 0.7, color: '#2378f7' },
                 { offset: 1, color: '#83bff6' }
               ]),
-              			borderRadius: [5, 5, 0, 0] // Rounded top corners
+              			borderRadius: [20, 20, 0, 0] // Rounded top corners
             }
           },
           data: data
